@@ -33,7 +33,7 @@ const Login = ({ setUser }) => {
             <div>
             {load && <img src={process.env.PUBLIC_URL + '/spinner.gif'} /> || (
             <GoogleLogin
-                clientId="803513597131-pp5q6uea273cs7qtj6rmidaq4jptvpdq.apps.googleusercontent.com"
+                clientId="599738396426-qg5q0l8ep9o1m0ronglo3v9e3epgnois.apps.googleusercontent.com"
                 buttonText="Login"
                 onSuccess={responseGoogle}
                 onFailure={() => console.log('failed to login')}
